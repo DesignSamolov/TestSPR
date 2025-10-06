@@ -137,9 +137,10 @@
     <type fullname="Naninovel.EmptyScriptLine" preserve="nothing" serialized="true" />
     <type fullname="Naninovel.GenericTextScriptLine" preserve="nothing" serialized="true" />
     <type fullname="Naninovel.LabelScriptLine" preserve="nothing" serialized="true" />
+    <type fullname="Naninovel.Commands.StopBgm" preserve="nothing" serialized="true" />
+    <type fullname="Naninovel.Commands.PlaySfx" preserve="nothing" serialized="true" />
     <type fullname="Naninovel.Commands.HideActors" preserve="nothing" serialized="true" />
     <type fullname="Naninovel.Commands.ProcessInput" preserve="nothing" serialized="true" />
-    <type fullname="Naninovel.Commands.StopBgm" preserve="nothing" serialized="true" />
     <type fullname="Naninovel.Commands.ModifyTextPrinter" preserve="nothing" serialized="true" />
     <type fullname="Naninovel.Commands.Spawn" preserve="nothing" serialized="true" />
     <type fullname="Naninovel.UI.ToastAppearance/TextChangedEvent" preserve="nothing" serialized="true" />
