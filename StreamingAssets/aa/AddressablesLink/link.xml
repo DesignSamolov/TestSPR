@@ -2,12 +2,12 @@
   <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="AutoSaver" preserve="all" />
     <type fullname="BacklogAnchor" preserve="all" />
-    <type fullname="ButtonSound" preserve="all" />
     <type fullname="DeviceChanger" preserve="all" />
     <type fullname="DeviceDetection" preserve="all" />
     <type fullname="DeviceLayoutChanger" preserve="all" />
     <type fullname="DeviceVerticalLayoutChanger" preserve="all" />
     <type fullname="FullScreenToggleButton" preserve="all" />
+    <type fullname="HighlightCommandsReceiver" preserve="all" />
     <type fullname="LoadQuickSave" preserve="all" />
     <type fullname="Save" preserve="all" />
     <type fullname="SliderActivator" preserve="all" />
@@ -17,7 +17,7 @@
     <type fullname="ToggleSoundController" preserve="all" />
     <type fullname="ToggleSoundMobile" preserve="all" />
     <type fullname="UISwitcher.UISwitcher" preserve="all" />
-    <type fullname="SetSlidersActive" preserve="nothing" serialized="true" />
+    <type fullname="ShowButton" preserve="nothing" serialized="true" />
     <type fullname="UISwitcher.NullableValueChangedEvent" preserve="nothing" serialized="true" />
     <type fullname="UISwitcher.ValueChangedEvent" preserve="nothing" serialized="true" />
   </assembly>
@@ -193,7 +193,6 @@
   </assembly>
   <assembly fullname="UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.AudioClip" preserve="all" />
-    <type fullname="UnityEngine.AudioSource" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.GameObject" preserve="all" />
