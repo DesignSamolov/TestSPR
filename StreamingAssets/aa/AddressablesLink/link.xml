@@ -6,6 +6,7 @@
     <type fullname="DeviceDetection" preserve="all" />
     <type fullname="DeviceLayoutChanger" preserve="all" />
     <type fullname="DeviceVerticalLayoutChanger" preserve="all" />
+    <type fullname="FullscreenOnStart" preserve="all" />
     <type fullname="FullScreenToggleButton" preserve="all" />
     <type fullname="HighlightCommandsReceiver" preserve="all" />
     <type fullname="LoadQuickSave" preserve="all" />
