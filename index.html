@@ -8,8 +8,22 @@
 
 <body style="text-align: center; padding: 0; border: 0; margin: 0;">
     <canvas id="unity-canvas" width="960" height="540" tabindex="-1" style="width:960px;height:540px;background:#231F20"></canvas>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CJT5PTSSYV"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){ dataLayer.push(arguments); }
 
-    <script src="Build/SPR 151000.loader.js"></script>
+      gtag('consent', 'default', {
+        ad_storage: 'denied',
+        analytics_storage: 'denied',
+        ad_user_data: 'denied',
+        ad_personalization: 'denied'
+      });
+
+      gtag('js', new Date());
+      gtag('config', 'G-CJT5PTSSYV');
+    </script>
+    <script src="Build/SPR 221000.loader.js"></script>
 
     <script>
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
@@ -49,9 +63,9 @@
 
       const canvasEl = document.querySelector("#unity-canvas");
       createUnityInstance(canvasEl, {
-        dataUrl: "Build/SPR 151000.data.unityweb",
-        frameworkUrl: "Build/SPR 151000.framework.js.unityweb",
-        codeUrl: "Build/SPR 151000.wasm.unityweb",
+        dataUrl: "Build/SPR 221000.data.unityweb",
+        frameworkUrl: "Build/SPR 221000.framework.js.unityweb",
+        codeUrl: "Build/SPR 221000.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "Samolov SPR",
